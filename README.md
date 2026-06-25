@@ -9,6 +9,7 @@
 - **polkit-gnome**
 
 ### 📄How to install?
-* Install the above mentioned programs into the system
-* Clone repository `git clone https://github.com/t7stet/niri-noctalia-dotfiles`
-* Copy .config `cp -ri niri-noctalia-dotfiles/.config ~/.config`
+1. **Install required programs** *(see list above)*
+2. **Clone repository:** `git clone https://github.com/t7stet/niri-noctalia-dotfiles`
+3. **Copy .config:** `cp -ri niri-noctalia-dotfiles/.config ~/.config`
+4. **Adapt configs to your system(like output section in niri config)**
