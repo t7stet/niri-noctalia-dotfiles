@@ -13,3 +13,6 @@
 2. **Clone repository:** `git clone https://github.com/t7stet/niri-noctalia-dotfiles`
 3. **Copy .config:** `cp -ri niri-noctalia-dotfiles/.config ~/.config`
 4. **Adapt configs to your system(like output section in niri config)**
+
+### 😺For kitty
+* Select your favorite theme by using `kitten themes`
