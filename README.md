@@ -7,3 +7,8 @@
 - **brightnessctl**
 - **playerctl**
 - **polkit-gnome**
+
+### 📄How to install?
+* Install the above mentioned programs into the system
+* Clone repository `git clone https://github.com/t7stet/niri-noctalia-dotfiles`
+* Copy .config `cp -ri niri-noctalia-dotfiles/.config ~/.config`
