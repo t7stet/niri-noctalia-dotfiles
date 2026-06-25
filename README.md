@@ -3,6 +3,7 @@
 - **Niri** 
 - **Noctalia Shell**
 - **Kitty**
+- **Fish**
 - **qs**
 - **brightnessctl**
 - **playerctl**
