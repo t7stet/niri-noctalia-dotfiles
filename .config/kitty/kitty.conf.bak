@@ -1,0 +1,175 @@
+# ============================================
+# Kitty Terminal Configuration
+# Focus on readability and clean design
+# ============================================
+
+# ============================================
+# FONTS
+# ============================================
+# Nerd Fonts from your meta package
+font_family      JetBrainsMono Nerd Font
+bold_font        JetBrainsMono Nerd Font Bold
+italic_font      JetBrainsMono Nerd Font Italic
+bold_italic_font JetBrainsMono Nerd Font Bold Italic
+
+# Font size
+font_size 13.0
+
+# Line spacing for better readability
+adjust_line_height  2
+adjust_column_width 0
+
+# ============================================
+# COLORS - Tokyo Night Storm
+# High contrast, easy on eyes, readable
+# ============================================
+# Background - deep dark blue
+# background #24283b
+
+# Foreground - warm white
+# foreground #c0caf5
+
+# Selection
+# selection_background #3b4261
+# selection_foreground #c0caf5
+
+# Cursor
+# cursor            #f7768e
+# cursor_text_color #24283b
+
+# Black
+# color0  #1d202f
+# color8  #414868
+
+# Red
+# color1  #f7768e
+# color9  #f7768e
+
+# Green
+# color2  #9ece6a
+# color10 #9ece6a
+
+# Yellow
+# color3  #e0af68
+# color11 #e0af68
+
+# Blue
+# color4  #7aa2f7
+# color12 #7aa2f7
+
+# Magenta
+# color5  #bb9af7
+# color13 #bb9af7
+
+# Cyan
+# color6  #7dcfff
+# color14 #7dcfff
+
+# White
+# color7  #a9b1d6
+# color15 #c0caf5
+
+# ============================================
+# CURSOR
+# ============================================
+cursor_shape block
+cursor_blink_interval 0.5
+
+# ============================================
+# MOUSE
+# ============================================
+mouse_hide_wait 2.0
+
+# URLs highlighting
+# url_color  #7aa2f7
+url_style  curly
+detect_urls yes
+
+# ============================================
+# WINDOW
+# ============================================
+# Default window size
+initial_window_width  900
+initial_window_height 600
+
+# Remember window size
+remember_window_size yes
+
+# No decorations (we have Noctalia)
+hide_window_decorations titlebar-only
+
+# ============================================
+# SCROLLBACK
+# ============================================
+scrollback_lines 10000
+scrollback_pager less --chop-long-lines --RAW-CONTROL-CHARS +INPUT_LINE_NUMBER
+
+# ============================================
+# PERFORMANCE
+# ============================================
+renderer gl
+fontconfig_antialias yes
+fontconfig_hinting   yes
+fontconfig_autohint  yes
+
+# ============================================
+# KEYBOARD SHORTCUTS
+# ============================================
+# Copy
+map ctrl+shift+c copy_to_clipboard
+
+# Paste
+map ctrl+shift+v paste_from_clipboard
+
+# Font size
+map ctrl+plus  change_font_size all +1.0
+map ctrl+equal change_font_size all +1.0
+map ctrl+minus change_font_size all -1.0
+map ctrl+0     change_font_size all 0
+
+# New window
+map ctrl+shift+enter new_window
+map ctrl+shift+n new_os_window
+
+# Close window
+map ctrl+shift+w close_window
+
+# Tab navigation
+map ctrl+shift+right next_tab
+map ctrl+shift+left  previous_tab
+
+# ============================================
+# SCROLLING
+# ============================================
+map shift+page_up   scroll_line_up
+map shift+page_down scroll_line_down
+map page_up         scroll_page_up
+map page_down       scroll_page_down
+map home            scroll_home
+map end             scroll_end
+
+# ============================================
+# BEHAVIOR
+# ============================================
+visual_bell_duration 0.1
+enable_audio_bell    no
+
+confirm_os_window_close 1
+allow_remote_control yes
+shell_integration enabled
+
+# ============================================
+# ADVANCED
+# ============================================
+# Better mouse support
+mouse_map protocol_default click_mouse_report
+mouse_map shift protocol_default click_mouse_report
+
+# Disable ligatures (optional, uncomment if you prefer)
+# disable_ligatures always
+
+
+# BEGIN_KITTY_THEME
+# Noctalia
+include current-theme.conf
+# END_KITTY_THEME
