@@ -7,6 +7,7 @@
 - **brightnessctl**
 - **playerctl**
 - **polkit-gnome**
+- **xdg-desktop-portal-gnome**
 
 ### 📄How to install?
 1. **Install required programs** *(see list above)*
